@@ -1,0 +1,69 @@
+.realstate-img-wrapper {
+  margin: 0;
+}
+
+.realstate-img {
+  width: 100%;
+  min-height: 170px;
+  max-height: 270px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.realstate-img-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 15px;
+  font-size: 0.75rem;
+  color: var(--gray-1);
+}
+
+.realstate-type-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.realstate-superhost {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--gray-1);
+  font-weight: var(--bold);
+}
+
+.fa-star {
+  margin-right: 5px;
+  font-size: 0.875rem;
+  color: var(--terracota-72);
+}
+
+.realstate-title {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: var(--semi-bold);
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 610px) {
+  .realstate-img {
+    height: 235px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .realstate-superhost {
+    font-size: 0.75rem;
+  }
+
+  .realstate-img-desc {
+    font-size: 0.875rem;
+  }
+
+  .realstate-title {
+    font-size: 1rem;
+  }
+}

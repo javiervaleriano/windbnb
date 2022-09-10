@@ -1,0 +1,28 @@
+:root {
+  /* colors */
+  --white: #ffffff;
+  --black: #000000;
+  --body: #333333;
+  --input-placeholder: #bdbdbd;
+  --gray-1: #4f4f4f;
+  --gray-2: #828282;
+  --gray-3: #555555;
+  --terracota: #eb5757;
+  --terracota-90: #eb5757e6;
+  --terracota-72: #eb5757b8;
+  --search-btn: #f2f2f2;
+  /* font families */
+  --montserrat: 'Montserrat', sans-serif;
+  --mulish: 'Mulish', sans-serif;
+  /* font weights */
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1235px;
+}
